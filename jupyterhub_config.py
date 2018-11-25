@@ -42,14 +42,18 @@ load_dotenv()
 
 c.JupyterHub.active_server_limit = 4
 
-from oauthenticator.github import GitHubOAuthenticator
-c.JupyterHub.authenticator_class = GitHubOAuthenticator
+if os.getenv('JUPYTERHUB_ENV') == 'dev':
+    c.JupyterHub.authenticator_class = 'dummyauthenticator.DummyAuthenticator'
+    c.DummyAuthenticator.password = os.getenv('DEV_PASSWORD')
+else:
+    from oauthenticator.github import GitHubOAuthenticator
+    c.JupyterHub.authenticator_class = GitHubOAuthenticator
 
-c.GitHubOAuthenticator.oauth_callback_url = os.getenv('OAUTH_CALLBACK_URL')
-c.GitHubOAuthenticator.client_id = os.getenv('OAUTH_CLIENT_ID')
-c.GitHubOAuthenticator.client_secret = os.getenv('OAUTH_CLIENT_SECRET')
-c.Authenticator.whitelist = set(os.getenv('AUTH_WHITELIST'))
-c.Authenticator.admin_users = set(os.getenv('AUTH_ADMIN'))
+    c.GitHubOAuthenticator.oauth_callback_url = os.getenv('OAUTH_CALLBACK_URL')
+    c.GitHubOAuthenticator.client_id = os.getenv('OAUTH_CLIENT_ID')
+    c.GitHubOAuthenticator.client_secret = os.getenv('OAUTH_CLIENT_SECRET')
+    c.Authenticator.whitelist = set(os.getenv('AUTH_WHITELIST'))
+    c.Authenticator.admin_users = set(os.getenv('AUTH_ADMIN'))
 
 
 ## Duration (in seconds) to determine the number of active users.
@@ -106,7 +110,7 @@ JupyterHub config for server startup form
 """
 
 import EC2Spawner.EC2Spawner as EC2Spawner
-c.JupyterHub.spawner_class = 'EC2Spawner'
+c.JupyterHub.spawner_class = EC2Spawner
 #c.Spawner.http_timeout = 120
 #c.ProfilesSpawner.profiles = [
 #        ("T2 Medium", 'local', 'jupyterhub.spawner.LocalProcessSoawner', {'ip':'0.0.0.0'})

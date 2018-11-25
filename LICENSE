@@ -23,3 +23,90 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Created temporary directory: /private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-ephem-wheel-cache-fwf7cufu
+Created temporary directory: /private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-req-tracker-qf49etgg
+Created requirements tracker '/private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-req-tracker-qf49etgg'
+Created temporary directory: /private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-install-4rnygq60
+Collecting README.md
+  1 location(s) to search for versions of README.md:
+  * https://pypi.org/simple/readme-md/
+  Getting page https://pypi.org/simple/readme-md/
+  Analyzing links from page https://pypi.org/simple/readme-md/
+    Skipping link https://files.pythonhosted.org/packages/d9/e9/9d38b060cc7df6195203560312862bedce076b66f034699854473cb40cc4/readme-md-0.0.0.tar.gz#sha256=97614b6a4929377df94e3c14502dc4f3e1e93c86942c0e80678663826ff58f9c (from https://pypi.org/simple/readme-md/); Missing project version for README.md
+    Skipping link https://files.pythonhosted.org/packages/59/49/32489de47ab125e865130599e057ee4afd1953ebc9b6cf3303962b29e3d2/readme-md-0.0.1.tar.gz#sha256=f56fcbc5cd0572b38aa446555244daceeef2fccb3bd9fe2a191f9dc5df5059fc (from https://pypi.org/simple/readme-md/); Missing project version for README.md
+    Skipping link https://files.pythonhosted.org/packages/a3/59/9cfb5cef140b395cb10d20064f9666fab54a343a5e83daab89c0972758f1/readme-md-0.0.2.tar.gz#sha256=b730a4aaa603a97f480b94bb5dd95956a481f7e25d50b819ea5b62ee58b71c6b (from https://pypi.org/simple/readme-md/); Missing project version for README.md
+    Found link https://files.pythonhosted.org/packages/51/ed/c3909e70068eda6b567b3150237a03b7bc931198cc178701585a3afce05c/readme_md-0.0.2-py2.py3-none-any.whl#sha256=2621c5b42d88649ef7f15ddd4d5cb4cb6a1046c4e31e0d132dedb5d104fce498 (from https://pypi.org/simple/readme-md/), version: 0.0.2
+    Skipping link https://files.pythonhosted.org/packages/ee/89/e190be464b52b809739e8afc505f205d12b442eb0bc5fc51f9ad3f7eca2c/readme-md-2018.11.15.tar.gz#sha256=0f9ba713332438c94e0d5c7aadb13a48320b1a67c9d8d48eaaf073cb00d214d6 (from https://pypi.org/simple/readme-md/); Missing project version for README.md
+    Found link https://files.pythonhosted.org/packages/90/cd/7d3522938ce338e714c6a428920679c295c2f8206be83d17733c59c47e99/readme_md-2018.11.15-py2.py3-none-any.whl#sha256=53f0b1f1b6486c00b1c44fb8d8a20197999d44d08bec2f2b78179f8e8165e000 (from https://pypi.org/simple/readme-md/), version: 2018.11.15
+    Skipping link https://files.pythonhosted.org/packages/c3/86/a34338a208eebe09bc5b3e233aee222e54f3232d679e01884024e71fd65e/readme-md-2018.11.23.tar.gz#sha256=764cb5de8adc5ed1475f6030bcb893a9b9756f958d7c9655ade5c33f9dea16bb (from https://pypi.org/simple/readme-md/); Missing project version for README.md
+    Found link https://files.pythonhosted.org/packages/91/90/e9d8b9cb602c4d67260f0f59d44ba0a69323fba53e7f0dfb92a4d840cf67/readme_md-2018.11.23-py2.py3-none-any.whl#sha256=cc7e94f13bd204205037fcfb33640584240cc424500c129783c860da1271ee81 (from https://pypi.org/simple/readme-md/), version: 2018.11.23
+  Using version 2018.11.23 (newest of versions: 0.0.2, 2018.11.15, 2018.11.23)
+  Created temporary directory: /private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-unpack-y6q3roam
+  Downloading https://files.pythonhosted.org/packages/91/90/e9d8b9cb602c4d67260f0f59d44ba0a69323fba53e7f0dfb92a4d840cf67/readme_md-2018.11.23-py2.py3-none-any.whl
+  Downloading from URL https://files.pythonhosted.org/packages/91/90/e9d8b9cb602c4d67260f0f59d44ba0a69323fba53e7f0dfb92a4d840cf67/readme_md-2018.11.23-py2.py3-none-any.whl#sha256=cc7e94f13bd204205037fcfb33640584240cc424500c129783c860da1271ee81 (from https://pypi.org/simple/readme-md/)
+  Added README.md from https://files.pythonhosted.org/packages/91/90/e9d8b9cb602c4d67260f0f59d44ba0a69323fba53e7f0dfb92a4d840cf67/readme_md-2018.11.23-py2.py3-none-any.whl#sha256=cc7e94f13bd204205037fcfb33640584240cc424500c129783c860da1271ee81 to build tracker '/private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-req-tracker-qf49etgg'
+  Removed README.md from https://files.pythonhosted.org/packages/91/90/e9d8b9cb602c4d67260f0f59d44ba0a69323fba53e7f0dfb92a4d840cf67/readme_md-2018.11.23-py2.py3-none-any.whl#sha256=cc7e94f13bd204205037fcfb33640584240cc424500c129783c860da1271ee81 from build tracker '/private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-req-tracker-qf49etgg'
+Collecting dev_env
+  1 location(s) to search for versions of dev-env:
+  * https://pypi.org/simple/dev-env/
+  Getting page https://pypi.org/simple/dev-env/
+  Analyzing links from page https://pypi.org/simple/dev-env/
+    Found link https://files.pythonhosted.org/packages/84/5d/3ae41e0e0d036f306ede1f1a96234a626815a46c919d3468307789e46457/dev_env-0.5.0.tar.gz#sha256=50da94e58ef7af9f90aedd1be1b4dd7473a390fced893cd598706091ece28d77 (from https://pypi.org/simple/dev-env/), version: 0.5.0
+    Found link https://files.pythonhosted.org/packages/c7/a9/7bc724e9fcb7a6627a829126311405ba16a73b4d75cbe5b88b7ab5690f1e/dev_env-0.5.1.tar.gz#sha256=cfb264fb15780a20f2300b9a81c24a2de52cb9353c0f762d3bd1a607882c557f (from https://pypi.org/simple/dev-env/), version: 0.5.1
+    Found link https://files.pythonhosted.org/packages/16/af/6e234d5f66204b67199b318c30c767bb3fe322b98f3f04b22e9e251a9d80/dev_env-0.5.2.tar.gz#sha256=c163ccca49593da226b30816be4f6298a69719ce28a35e27d5b0e9bd726a41df (from https://pypi.org/simple/dev-env/), version: 0.5.2
+    Skipping link https://files.pythonhosted.org/packages/4c/fd/e5d2fdd7b5572d1c14b38d1debc497b8a7a6bb750729449eaad916dd3c12/dev_env-0.5.5-py2-none-any.whl#sha256=3efcce7a0ad3575e9580e9a01ccdc3f77334715e89e13afecb412942b4797312 (from https://pypi.org/simple/dev-env/); it is not compatible with this Python
+    Found link https://files.pythonhosted.org/packages/a1/86/7bf0046bee62b9b0909160f1c6a63045e00f1cb53575e1b8405ceb198eb2/dev_env-0.5.5.tar.gz#sha256=482697cf7eaef9a191be313a11ae9e9bc6c46f2eda1c695bfb7318601da951a9 (from https://pypi.org/simple/dev-env/), version: 0.5.5
+    Skipping link https://files.pythonhosted.org/packages/b1/76/335d24ae938c03aac6d345f55c0d98c552eb7613432ca6ae081e7fd7b7f3/dev_env-0.5.6-py2-none-any.whl#sha256=c1cbf28d87744618cdae8995ee2a641930d6e57c3a184dd8a41bb7221a31bc89 (from https://pypi.org/simple/dev-env/); it is not compatible with this Python
+    Found link https://files.pythonhosted.org/packages/c5/f7/ba0fc72d493cb306c9f45239fcbbf2ebfe25ece44a807f80a92b59b542ac/dev_env-0.5.6.tar.gz#sha256=f104a204907edecd6d5bae88f77a0ece8b2281bd2dd98fd360bd06ca6066862d (from https://pypi.org/simple/dev-env/), version: 0.5.6
+    Skipping link https://files.pythonhosted.org/packages/82/67/6a6bd58586845c347a36c7debc2d47b8df753c38f6b36a98f08d21a45faa/dev_env-0.5.7-py2-none-any.whl#sha256=3759cf45c522b0d81320e89952944a13d09092da634fb33e2f7bf2276e89bf4f (from https://pypi.org/simple/dev-env/); it is not compatible with this Python
+    Found link https://files.pythonhosted.org/packages/2a/23/6a0195faed83c74ecee7d7dde9a4c7e830fc240795ea4541e6a76ab601ea/dev_env-0.5.7.tar.gz#sha256=622309c530dbcfcbdb92bfdb9d4edbad3a6a40a5589733013ddd4815c82c87d9 (from https://pypi.org/simple/dev-env/), version: 0.5.7
+    Skipping link https://files.pythonhosted.org/packages/a3/b4/3cea9d1a97936db8f6243fd6c775411490ed116b4db13260aed0fe8e440a/dev_env-0.5.8-py2-none-any.whl#sha256=410ff51106142a0601d8eadae47844a095e1e0dddc83119d5712c69187ed9fc5 (from https://pypi.org/simple/dev-env/); it is not compatible with this Python
+    Found link https://files.pythonhosted.org/packages/2d/a4/e886541d2f4c86d4b416b1726e5de4bce463885e7af94b3901d4e8b7ab8b/dev_env-0.5.8.tar.gz#sha256=3eeaa375e0f614b7e1dc7031d16ee4eb94b05eb632341ca02c25bd53b9f75ea6 (from https://pypi.org/simple/dev-env/), version: 0.5.8
+  Using version 0.5.8 (newest of versions: 0.5.0, 0.5.1, 0.5.2, 0.5.5, 0.5.6, 0.5.7, 0.5.8)
+  Created temporary directory: /private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-unpack-as7gw6kl
+  Downloading https://files.pythonhosted.org/packages/2d/a4/e886541d2f4c86d4b416b1726e5de4bce463885e7af94b3901d4e8b7ab8b/dev_env-0.5.8.tar.gz
+  Downloading from URL https://files.pythonhosted.org/packages/2d/a4/e886541d2f4c86d4b416b1726e5de4bce463885e7af94b3901d4e8b7ab8b/dev_env-0.5.8.tar.gz#sha256=3eeaa375e0f614b7e1dc7031d16ee4eb94b05eb632341ca02c25bd53b9f75ea6 (from https://pypi.org/simple/dev-env/)
+  Added dev_env from https://files.pythonhosted.org/packages/2d/a4/e886541d2f4c86d4b416b1726e5de4bce463885e7af94b3901d4e8b7ab8b/dev_env-0.5.8.tar.gz#sha256=3eeaa375e0f614b7e1dc7031d16ee4eb94b05eb632341ca02c25bd53b9f75ea6 to build tracker '/private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-req-tracker-qf49etgg'
+  Running setup.py (path:/private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-install-4rnygq60/dev-env/setup.py) egg_info for package dev-env
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/dev_env.egg-info
+    writing requirements to pip-egg-info/dev_env.egg-info/requires.txt
+    writing pip-egg-info/dev_env.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/dev_env.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/dev_env.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/dev_env.egg-info/SOURCES.txt'
+    reading manifest file 'pip-egg-info/dev_env.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/dev_env.egg-info/SOURCES.txt'
+  Source in /private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-install-4rnygq60/dev-env has version 0.5.8, which satisfies requirement dev_env from https://files.pythonhosted.org/packages/2d/a4/e886541d2f4c86d4b416b1726e5de4bce463885e7af94b3901d4e8b7ab8b/dev_env-0.5.8.tar.gz#sha256=3eeaa375e0f614b7e1dc7031d16ee4eb94b05eb632341ca02c25bd53b9f75ea6
+  Removed dev_env from https://files.pythonhosted.org/packages/2d/a4/e886541d2f4c86d4b416b1726e5de4bce463885e7af94b3901d4e8b7ab8b/dev_env-0.5.8.tar.gz#sha256=3eeaa375e0f614b7e1dc7031d16ee4eb94b05eb632341ca02c25bd53b9f75ea6 from build tracker '/private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-req-tracker-qf49etgg'
+Collecting jupyterhub.sqlite
+  1 location(s) to search for versions of jupyterhub.sqlite:
+  * https://pypi.org/simple/jupyterhub-sqlite/
+  Getting page https://pypi.org/simple/jupyterhub-sqlite/
+  Could not fetch URL https://pypi.org/simple/jupyterhub-sqlite/: 404 Client Error: Not Found for url: https://pypi.org/simple/jupyterhub-sqlite/ - skipping
+  Could not find a version that satisfies the requirement jupyterhub.sqlite (from versions: )
+Cleaning up...
+  Removing source in /private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-install-4rnygq60/dev-env
+Removed build tracker '/private/var/folders/t8/7phk1spn10q2_3pcpn7k0nch0000gp/T/pip-req-tracker-qf49etgg'
+No matching distribution found for jupyterhub.sqlite
+Exception information:
+Traceback (most recent call last):
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/cli/base_command.py", line 143, in main
+    status = self.run(options, args)
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/commands/install.py", line 318, in run
+    resolver.resolve(requirement_set)
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/resolve.py", line 102, in resolve
+    self._resolve_one(requirement_set, req)
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/resolve.py", line 256, in _resolve_one
+    abstract_dist = self._get_abstract_dist_for(req_to_install)
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/resolve.py", line 209, in _get_abstract_dist_for
+    self.require_hashes
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/operations/prepare.py", line 218, in prepare_linked_requirement
+    req.populate_link(finder, upgrade_allowed, require_hashes)
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/req/req_install.py", line 164, in populate_link
+    self.link = finder.find_requirement(self, upgrade)
+  File "/Users/tom/coding/personal/ridings-jupyterhub/dev_env/lib/python3.5/site-packages/pip/_internal/index.py", line 621, in find_requirement
+    'No matching distribution found for %s' % req
+pip._internal.exceptions.DistributionNotFound: No matching distribution found for jupyterhub.sqlite
