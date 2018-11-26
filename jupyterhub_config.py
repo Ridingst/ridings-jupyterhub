@@ -52,8 +52,11 @@ else:
     c.GitHubOAuthenticator.oauth_callback_url = os.getenv('OAUTH_CALLBACK_URL')
     c.GitHubOAuthenticator.client_id = os.getenv('OAUTH_CLIENT_ID')
     c.GitHubOAuthenticator.client_secret = os.getenv('OAUTH_CLIENT_SECRET')
-    c.Authenticator.whitelist = os.getenv('AUTH_WHITELIST').split(',')
-    c.Authenticator.admin_users = os.getenv('AUTH_ADMIN').split(',')
+
+c.Authenticator.whitelist = os.getenv('AUTH_WHITELIST').split(',')
+c.Authenticator.admin_users = os.getenv('AUTH_ADMIN').split(',')
+
+
 
 
 ## Duration (in seconds) to determine the number of active users.
