@@ -114,6 +114,7 @@ JupyterHub config for server startup form
 import EC2Spawner.EC2Spawner as EC2Spawner
 c.JupyterHub.spawner_class = EC2Spawner
 c.EC2Spawner.args.extend(['--ip=0.0.0.0'])
+c.EC2Spawner.http_timeout = 120
 #c.Spawner.http_timeout = 120
 #c.ProfilesSpawner.profiles = [
 #        ("T2 Medium", 'local', 'jupyterhub.spawner.LocalProcessSoawner', {'ip':'0.0.0.0'})
