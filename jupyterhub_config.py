@@ -56,7 +56,7 @@ else:
 c.Authenticator.whitelist = os.getenv('AUTH_WHITELIST').split(',')
 c.Authenticator.admin_users = os.getenv('AUTH_ADMIN').split(',')
 
-c.JupyterHub.ip = '127.0.0.1'
+#c.JupyterHub.ip = '127.0.0.1'
 
 ## Duration (in seconds) to determine the number of active users.
 c.JupyterHub.active_user_window = 1800

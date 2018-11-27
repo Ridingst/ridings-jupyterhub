@@ -1,3 +1,14 @@
+# Jupyter specifics
+jupyterhub_cookie_secret
+jupyterhub.sqlite
+
+.sites-enabled.nginx.conf
+
+# virtual env
+dev-env/
+Pipfile
+Pipfile.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
