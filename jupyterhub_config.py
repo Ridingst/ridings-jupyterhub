@@ -53,6 +53,7 @@ else:
     c.GitHubOAuthenticator.client_id = os.getenv('OAUTH_CLIENT_ID')
     c.GitHubOAuthenticator.client_secret = os.getenv('OAUTH_CLIENT_SECRET')
 
+
 c.Authenticator.whitelist = os.getenv('AUTH_WHITELIST').split(',')
 c.Authenticator.admin_users = os.getenv('AUTH_ADMIN').split(',')
 
@@ -113,7 +114,7 @@ JupyterHub config for server startup form
 
 import EC2Spawner.EC2Spawner as EC2Spawner
 c.JupyterHub.spawner_class = EC2Spawner
-c.EC2Spawner.args.extend(['--ip=0.0.0.0'])
+c.EC2Spawner.args.extend(['--ip=0.0.0.0', '--allow-root'])
 c.EC2Spawner.http_timeout = 120
 #c.Spawner.http_timeout = 120
 #c.ProfilesSpawner.profiles = [
