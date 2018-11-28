@@ -122,7 +122,7 @@ c.JupyterHub.spawner_class = EC2Spawner
 c.Spawner.debug = True
 
 # The remote host to spawn notebooks on
-c.EC2Spawner.remote_hosts = ['54.229.180.39']
+c.EC2Spawner.remote_hosts = [os.getenv('REMOTE_HOST')]
 c.EC2Spawner.remote_port = '22'
 c.EC2Spawner.ssh_command = 'ssh'
 
