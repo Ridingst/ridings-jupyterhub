@@ -1,3 +1,4 @@
+python ./test/removeEc2.py
 python3 ./test/removeEc2.py
 
 rm jupyterhub.sqlite
