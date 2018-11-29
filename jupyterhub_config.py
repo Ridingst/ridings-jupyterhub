@@ -126,8 +126,8 @@ c.EC2Spawner.remote_hosts = [os.getenv('REMOTE_HOST')]
 c.EC2Spawner.remote_port = '22'
 c.EC2Spawner.ssh_command = 'ssh'
 
-c.Spawner.http_timeout=300
-c.Spawner.start_timeout=300
+c.EC2Spawner.http_timeout=300
+c.EC2Spawner.start_timeout=300
 
 # The system path for the remote SSH session. Must have the jupyter-singleuser and python executables
 c.EC2Spawner.path = '/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin'
