@@ -1,0 +1,16 @@
+echo ```
+[Unit]
+Description=Jupyterhub
+After=network.target
+
+[Service]
+Type=simple
+# Another Type option: forking
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+ExecStart=/bin/bash jupyterhub -f jupyterhub_config.py --debug >> /var/log/jupyter.log 2&>1
+Restart=on-failure
+# Other Restart options: or always, on-abort, etc
+
+[Install]
+WantedBy=multi-user.target``` >> /etc/systemd/system/jupyterhub.service
