@@ -2,6 +2,11 @@
 jupyterhub_cookie_secret
 jupyterhub.sqlite
 
+# Env
+.vscode/
+
+# Management files
+.pid
 .sites-enabled.nginx.conf
 
 # virtual env
