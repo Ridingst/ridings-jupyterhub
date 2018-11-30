@@ -1,0 +1,1 @@
+nohup ./run.sh 0<&- &> /var/log/jupyterhub.log
