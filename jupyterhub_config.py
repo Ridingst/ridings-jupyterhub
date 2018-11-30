@@ -98,9 +98,6 @@ c.JupyterHub.allow_named_servers = False
 #  If set to 0, no limit is enforced.
 c.JupyterHub.concurrent_spawn_limit = 3
 
-## The config file to load
-c.JupyterHub.config_file = '~/jupyterhub_config.py'
-
 # shutdown the server after no activity for an hour
 c.NotebookApp.shutdown_no_activity_timeout = 60 * 60
 # shutdown kernels after no activity for 20 minutes
@@ -114,9 +111,26 @@ JupyterHub config for server startup form
 
 import EC2Spawner.EC2Spawner as EC2Spawner
 c.JupyterHub.spawner_class = EC2Spawner
-c.EC2Spawner.args.extend(['--ip=0.0.0.0', '--allow-root'])
-c.EC2Spawner.http_timeout = 120
+c.EC2Spawner.args.extend(['--ip=0.0.0.0'])
+#c.EC2Spawner.http_timeout = 120
 #c.Spawner.http_timeout = 120
 #c.ProfilesSpawner.profiles = [
 #        ("T2 Medium", 'local', 'jupyterhub.spawner.LocalProcessSoawner', {'ip':'0.0.0.0'})
 #]
+
+
+c.Spawner.debug = True
+
+# The remote host to spawn notebooks on
+c.EC2Spawner.remote_hosts = [os.getenv('REMOTE_HOST')]
+c.EC2Spawner.remote_port = '22'
+c.EC2Spawner.ssh_command = 'ssh'
+
+c.EC2Spawner.http_timeout=300
+c.EC2Spawner.start_timeout=300
+
+# The system path for the remote SSH session. Must have the jupyter-singleuser and python executables
+c.EC2Spawner.path = '/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin'
+
+# The command to return an unused port on the target system. See scripts/get_port.py for an example
+c.EC2Spawner.remote_port_command = '/usr/bin/python3 /home/ec2-user/get-port.py'
