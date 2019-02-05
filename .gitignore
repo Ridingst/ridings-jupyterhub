@@ -1,6 +1,7 @@
 # Jupyter specifics
 jupyterhub_cookie_secret
 jupyterhub.sqlite
+jupyterhub-proxy.pid
 
 # Env
 .vscode/
