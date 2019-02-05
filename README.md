@@ -3,4 +3,5 @@
 1. Setup AWS
 `aws configure`
 
-2. 
+2. *Optional* Activate Dev Env settings
+`source dev-env/bin/activate`
